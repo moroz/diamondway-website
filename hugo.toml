@@ -1,4 +1,19 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Diamond Way Buddhism Taiwan'
 theme = 'dw'
+
+[[menus.main]]
+name = 'Home'
+weight = 10
+pageRef = '/'
+
+[[menus.main]]
+name = 'Meditation'
+weight = 20
+pageRef = '/meditation'
+
+[[menus.main]]
+name = 'Travel'
+weight = 30
+pageRef = '/travel'

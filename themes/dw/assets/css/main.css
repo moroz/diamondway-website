@@ -1,5 +1,54 @@
-body {
-  font-family: sans-serif;
+*, *::after, *::before {
+  box-sizing: border-box;
 }
 
-/*# sourceMappingURL=main.css.map */
+:root, html {
+  --brand-color: #cd2030;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 80px;
+  background: white;
+  border-bottom: 1px solid var(--brand-color);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: space-between;
+  padding-inline: 2rem;
+}
+header h1 {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+header .logo {
+  height: calc(80px - 0.75rem);
+}
+
+nav {
+  display: flex;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline-flex;
+}
+nav li a {
+  height: 80px;
+  line-height: 80px;
+  font-size: 1.25em;
+  padding-inline: 0.75em;
+  text-decoration: none;
+  color: inherit;
+}
+nav li a:hover {
+  background: #f2f2f2;
+}
