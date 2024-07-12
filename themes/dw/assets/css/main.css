@@ -1,15 +1,12 @@
-*, *::after, *::before {
-  box-sizing: border-box;
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
-
-:root, html {
-  --brand-color: #cd2030;
-}
-
-body {
-  font-family: sans-serif;
-  padding: 0;
-  margin: 0;
+.layout > main {
+  max-width: 800px;
+  margin: 0 auto;
+  flex: 1;
 }
 
 header {
@@ -51,4 +48,22 @@ nav li a {
 }
 nav li a:hover {
   background: #f2f2f2;
+}
+
+footer {
+  text-align: center;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+:root, html {
+  --brand-color: #cd2030;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
 }

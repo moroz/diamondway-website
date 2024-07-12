@@ -3,6 +3,11 @@ languageCode = 'en-us'
 title = 'Diamond Way Buddhism Taiwan'
 theme = 'dw'
 
+disableKinds = ["taxonomy", "term"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
 [[menus.main]]
 name = 'Home'
 weight = 10
