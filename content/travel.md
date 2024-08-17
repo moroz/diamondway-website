@@ -3,7 +3,9 @@ title: Travel
 ---
 
 <div class="notification is-warning">
-This page was originaly published in preparation for Lama Ole Nydahl's visit in Taipei back 
+    This page was originaly published in preparation for Lama Ole Nydahl's visit in Taipei back in 2020.
+    The visit was cancelled due to COVID.
+    However, the page stilll contains references to that event.
 </div>
 
 ## Course Venue 📍
